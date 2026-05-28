@@ -248,7 +248,7 @@ export default function HomePage() {
       <div className="bg-slate-50 border-t border-slate-200">
         <div className="max-w-6xl mx-auto px-6 py-12">
           <h2 className="text-xl font-bold text-center text-slate-700 mb-8">All Tools</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
 
             {/* Internal SEO Doctor */}
             <div className="card p-6 bg-gradient-to-br from-blue-600 to-indigo-700 text-white">
@@ -304,26 +304,6 @@ export default function HomePage() {
                 <span className="text-xs bg-slate-600 text-slate-200 px-2 py-1 rounded-full">CSV Export</span>
                 <span className="text-xs bg-slate-600 text-slate-200 px-2 py-1 rounded-full">Status Track</span>
                 <span className="text-xs bg-amber-600/60 text-amber-100 px-2 py-1 rounded-full">⚠️ No Auth</span>
-              </div>
-            </Link>
-
-            {/* Content Checker */}
-            <Link
-              href="/content-checker"
-              className="card p-6 bg-gradient-to-br from-violet-600 to-purple-700 text-white hover:shadow-lg transition-shadow cursor-pointer block"
-            >
-              <div className="text-3xl mb-3">✍️</div>
-              <h3 className="font-extrabold text-lg mb-1">Content Checker</h3>
-              <p className="text-violet-200 text-sm leading-relaxed mb-4">
-                Score articles on SEO, readability &amp; completeness. Auto-fix
-                placeholders, meta tags, missing sections. Preview before/after.
-                Export clean HTML for WordPress.
-              </p>
-              <div className="flex flex-wrap gap-2 mt-auto">
-                <span className="text-xs bg-violet-500/50 text-white px-2 py-1 rounded-full">Auto-Fix</span>
-                <span className="text-xs bg-violet-500/50 text-white px-2 py-1 rounded-full">SEO Score</span>
-                <span className="text-xs bg-violet-500/50 text-white px-2 py-1 rounded-full">WP Export</span>
-                <span className="text-xs bg-violet-500/50 text-white px-2 py-1 rounded-full">Readability</span>
               </div>
             </Link>
 
